@@ -378,10 +378,7 @@ def emiko_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="Support", callback_data="emiko_support"),
                     InlineKeyboardButton(text="Credits", callback_data="emiko_credit"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="Source Code", url="https://github.com/kennedy-ex/EmikoRobot"),
-                 ],
+                 
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_back"),
                  ]
@@ -399,7 +396,7 @@ def emiko_about_callback(update, context):
                     sql.num_chats()),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
-                timeout=60,
+                timeout=6
                 disable_web_page_preview=False,
         )
 
@@ -439,8 +436,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/emikosupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/KennedyProject"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/ruriSupprort"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/joinsinimaszeh"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
