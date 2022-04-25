@@ -98,8 +98,6 @@ buttons = [
     [
         InlineKeyboardButton(text="Get Help", callback_data="help_back"),
         InlineKeyboardButton(text="Support!​​", callback_data="emiko_support"),
-        InlineKeyboardButton(text="Music​​", callback_data="source_"),
-        ),
     ],
     [
         InlineKeyboardButton(
