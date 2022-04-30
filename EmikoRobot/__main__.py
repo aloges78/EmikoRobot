@@ -83,11 +83,8 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hello {} !*
-✪ I'm an anime-theme management bot
-────────────────────────
-× *Uptime:* `{}`
-× `{}` *users, across* `{}` *chats.*
-────────────────────────
+✪ my name is Sasa - I can help you manage groups!  Invite me to your group now.
+
 ✪ Hit /help to see my available commands.
 """
 
@@ -439,8 +436,8 @@ def emiko_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="https://t.me/ruriSupprort"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/joinsinimaszeh"),
+                    InlineKeyboardButton(text="Support", url="https://t.me/juvenileeeeee"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/ngikkkkkg"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="emiko_"),
